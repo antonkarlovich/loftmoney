@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/et_price"
+
+        android:layout_marginBottom="25dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginTop="127dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="18dp"
+        android:hint="@string/edittext_name_hint" />
+
+    <EditText
+        android:id="@+id/et_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btn_add"
+        android:layout_marginStart="33dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="26dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="18dp"
+        android:hint="@string/edit_price_hint" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:paddingBottom="9dp"
+        android:paddingTop="11dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="17dp"
+        android:background="@null"
+        android:text="@string/add_button_title" />
+
+</RelativeLayout>
